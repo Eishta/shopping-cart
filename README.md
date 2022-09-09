@@ -15,6 +15,10 @@
 * Users must be able to see more products using pagination.
 * Different views for different resolutions
 * Testing
+* Send email and message with deep links 
+* Track emails
+* Authentication
+* PWA
 
 ### Apis 
 * Products API: http://api.devtoolstech.in/ecommerce/products
@@ -39,4 +43,4 @@
 ### Cart View 
 * View the items in the cart 
 * Delete the items from the cart -> recalculate the price 
-* 
+
