@@ -48,8 +48,8 @@ const Home = () => {
       <Filters />
       <div className="products-container">
         {show &&
-          transformProducts().map((ele, id) => (
-            <SingleProduct product={ele} key={id} />
+          transformProducts().map((ele, index) => (
+            <SingleProduct product={ele} key={index} />
           ))}
         {!show &&
           [1, 2, 3, 4, 5, 6].map((ele) => <SkeletonProduct key={ele} />)}
